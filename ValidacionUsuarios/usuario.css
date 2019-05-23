@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+}
+input[type=submit]{
+    background-color: #F22F5B;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=text]{
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #338DC9;
+    background-color: transparent;
+    padding: 10px 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+input[type=text]:focus{
+  border-color: #4CAF50;
+}
+#fechaNacimiento, #correo, #contrasena{
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #338DC9;
+    background-color: transparent;
+    padding: 10px 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#cancelar{
+    background-color: #F22F5B;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;å
+}
